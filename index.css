@@ -1,0 +1,531 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,100;1,400;1,700;1,900&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto',  sans-serif;
+    font-weight: 600;
+
+}
+
+
+.encabezado {
+    width: 100%;
+    height: 100vh;
+    background-color:#FADF10;    
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px 30px;
+    cursor: pointer;
+}
+
+#listheader {
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px 30px;
+    cursor: pointer;
+}
+
+
+
+#listheader:hover {
+    text-decoration: underline;
+
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 20%;
+}
+
+.img-nav {
+    display: flex;
+    width: 30%;
+    height: 70%;
+}
+.contenido {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 100%;
+    
+}
+
+
+.parrafo1 {
+    font-size: 25px;
+    padding: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn-comprar {
+    background-color: #000000;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 25px;
+    text-align:center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #FADF10;
+    background-image: -webkit-linear-gradient(45deg, #FADF10 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #FADF10 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+
+.btn-comprar:hover {
+  background-position: 0;
+    background-color: #FADF10;
+    border:solid 1px;
+    border-color: black;
+    color: black;
+
+
+    
+}
+
+
+.img-logo {
+    width: 400px;
+
+}
+
+.contenido-izq {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+
+ .img-fondo {
+     width: 200px;
+}
+
+main { 
+    background-image: url(./img/fondoo.jpg);
+    margin: 0;
+}
+.pag2 {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.parrafo2 {
+    margin: 0;
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    text-shadow: 5px 3px 3px black ;
+
+}
+
+.contenedor-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+
+.card {
+    background-color: white;
+    opacity: 0.9;
+    width: 280px;
+    height: 330px;
+    margin: 10px 150px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 7px rgba(77,69,69,0.26);
+-webkit-box-shadow: 0px 0px 20px 7px rgba(77,69,69,0.26);
+-moz-box-shadow: 0px 0px 20px 7px rgba(77,69,69,0.26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.card img {
+
+    width: 250px;
+    height: 220px;
+    border-radius: 30px;
+
+}
+
+.pesos {
+    font-size: 30px;
+    text-align:center;
+    margin: 0;
+   
+}
+
+
+
+.comprar {
+    background-color: blue;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 50%;
+    border-radius: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    border-width: 0px;
+    
+}
+.comprar:hover {
+    cursor: pointer;
+    background-color: #4964ff;
+}
+.numerospag {
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+/*
+a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 12px;
+} */
+
+.num-pag {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.numerospag li {
+    margin: 1px;
+}
+
+.suscribite {
+    background-color: #FADF10;
+    height: 120px;
+    padding: 10px;
+}
+
+.suscribite button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border:0px;
+    margin: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.suscribite button:hover {
+    transition: 0.2s;
+    color: rgb(131, 127, 127);
+}
+
+.datos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 200px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    justify-content: start;
+    align-items: center;
+}
+
+.datos p {
+    cursor: pointer;
+}
+
+.datos p:hover {
+    text-decoration: underline;
+}
+
+.contacto {
+    height: 150px;
+    background-color: #FADF10;
+
+   display: grid;
+   grid-template-columns: [x0] 1fr [x1] 1fr [x2];
+   grid-template-rows: [y0] 1fr [y1] 1fr [y2];
+   
+   
+}
+.encontranos {
+    width: 100%;
+    grid-column: x0 / x3;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;; 
+}
+
+.instagram p {
+    cursor: pointer;
+}
+.facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.facebook p {
+    cursor: pointer;
+}
+.contacto img {
+    width: 50px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+
+.registrarse {
+    background-color: black;
+    color: #FADF10;
+    padding: 3px 30px;
+    border-radius: 50px;
+    
+    cursor: pointer;
+    border: 2px solid #FADF10;
+    
+}
+
+.registrarse:hover {
+    border-style: solid ;
+    border-color: black;
+    padding: 3px 30px;
+    
+    border: 2px solid black;
+    background-color: #FADF10;
+    color: black;
+    transition: 0.3s;
+    
+}
+
+.iniciar-sesion {
+    padding: 2px 30px;
+    border-style: solid ;
+    border-color: black;
+    border-radius: 50px;
+    border-width: 2px;
+    cursor: pointer;
+    background-color: #FADF10;
+    color: black;
+    margin-right: 30px;
+}
+
+.iniciar-sesion:hover {
+    background-color: black;
+    color: #FADF10;
+    padding: 2px 30px;
+    border-radius: 50px;
+    border-style: solid;
+    transition: 0.3s;
+
+
+}
+
+.line {
+    background-color: black;
+    width: 100%;
+    height: 2px;
+}
+
+.copyright {
+    background-color: #FADF10;
+    
+}
+
+.copyright p {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    font-weight: normal;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+.contactanos {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+   background-color: #FADF10;
+   
+   
+
+}
+
+.contactanos-datos {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+
+}
+
+.contactanos-img {
+    background-image: url("./img/springfield.png");
+    background-repeat: no-repeat;
+    
+    text-align: center;
+    width: 80%;
+    margin: 0;
+    background-size: 1500px;
+}
+
+.contactanos-img h3 {
+    color: white;
+    font-size: 30px;
+}
+
+.contactanos-img p {
+    color: white;
+}
+
+.formulario {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+}
+
+input {
+    margin: 20px;
+    border-radius: 8px;
+    opacity: 75%;
+    padding: 14px;
+    width: 250px;
+    background-color: black;
+    color: white;
+}
+
+textarea {
+    border-radius: 8px;
+    opacity: 75%;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 5px;
+}
+
+.enviar-btn {
+    background-color: #FADF10;
+    opacity: 100%;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border-color: black;
+    border-width: 3px;
+}
+
+
+.instagram-img{
+width: 70px;
+margin:20px ;
+cursor: pointer;
+
+display: inline;
+flex-direction: row;
+
+}
+
+.facebook-img {
+    width: 70px;
+    margin: 20px;
+    cursor: pointer;
+    
+    display: inline;
+    flex-direction: row;
+   
+    
+}
+
+ 
+.llamar {
+    margin: auto;
+    display: block;
+      
+} 
+
+.correo {
+    margin: auto;
+    display: block;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.contactanos-datos h3 {
+    text-align:center;
+    font-size: 40px;;
+}
+
+.contactanos-datos p {
+    text-align:center;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight:300;
+}
+
+.contactanos-a {
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,100;1,400;1,700;1,900&display=swap');
+
+
+body {
+    background-image: url(./img/fondoo.jpg);
+    font-family: 'Roboto',  sans-serif;
+    
+}
+
+
+div {
+    width: 100%;
+    display: flex;
+
+
+    
+}
+
+.registrarse-login {
+    background-color: #FADF10;
+    width: 46%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 300px;
+    background-image: url(./img/familia.png);
+    background-repeat: no-repeat;
+    background-size:300px;
+}
+
+.img-familia {
+    height: 200px;
+
+}
+
+#img-familia {
+    width: 200px;
+    display: inline;
+    position: absolute;
+    margin-left:400px;
+    margin-top: 0;
+    margin-bottom: 300px;
+
+    
+}
+
+
+
+.registrarse-login h1 {
+    display: inline;
+
+}
+
+.registrarse-login p {
+margin-left: 200px;
+}
+
+
+.registrarse-datos {
+    background-color: white;
+    width: 45%;
+    margin: auto;
+    height: 50%;
+    font-size: 23px;
+    
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align:center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 50px;
+}
+
+label {
+    font-size: 23px;
+    font-weight: 600;
+    margin: 30px;
+}
+
+.registrarse-datos input {
+    align-self: center;
+    height: 40px;
+    width: 350px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.btn-login {
+    background-color: #FADF10;
+    color: black;
+    width: 200px;
+    height: 80px;
+    padding: 14px;
+    font-size: 25px;
+    text-align:center;
+    cursor: pointer;
+    border-color: black;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0px 3px 10px rgb(182, 182, 182);
+    border: 0;
+    border-radius: 10px;
+}
+
+.btn-login:hover {
+    box-shadow: 0px 3px 10px rgb(155, 153, 153);
+
+}
+
+
+
+
+.registrarse-google {
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+.registrarse-google h4 {
+    background-color: #f0f0f0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    
+    font-size: 20px;
+    font-weight: 700;
+    color: #928f8f;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.registrarse-google h4:hover {
+    background-color: #dddddd;
+}
+
+
+
+.img-google {
+    width: 20px;
+    margin-right: 20px;
+    margin-top: 3px;
+    margin-left: 0;
+}
