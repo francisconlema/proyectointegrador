@@ -560,10 +560,10 @@ flex-direction: row;
    }
 
    .card {
-       width: 330px;
+       width: 370px;
        flex-direction: column wrap;
        flex-wrap: wrap;
-       margin: 10px 60px;
+       margin: 20px 20px;
    }
 
    .contactanos-img {
@@ -598,10 +598,76 @@ flex-direction: row;
         font-size: 40px;
     }
 
+    .suscribite {
+        height: 300px;
+    }
 
+    .suscribite h2 {
+        font-size: 40px;
+        text-align: center;
+    }
 
+    .suscribite button {
+        font-size: 40px;
+        border-radius: 40px;
+        padding: 20px 50px;
+        font-weight: 700;
+    }
+
+    .btn-centrado {
+        display: flex;
+        justify-content: center;
+    }
+
+        
+    .datos p {
+        font-size: 28px;
+    }
+    
+    .datos {
+    height: 360px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+    .contactanos-img {
+        width: 100%;
+        background-size: 1800px;
+        position:relative;
+        
+    }
+
+    .contactanos-img h3 {
+        font-size: 47px;
+    }
+
+    input {
+        width: 580px;
+        height: 90px;
+        opacity: 70%;
+        font-size: 20px;
+        margin: 20px;
+        color: white;
+        
+        
+    }
+
+    textarea {
+        margin: 0;
+        
+    
+    }
+    .enviar-btn {
+        background-color: #FADF10;
+        width: 250px;
+        border-radius: 40px; 
+    }
 
 }
+
+
+
 
 
 
