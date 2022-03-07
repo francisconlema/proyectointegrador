@@ -551,8 +551,8 @@ flex-direction: row;
     }
 
     .img-fondo {
-        width: 150px;
-        margin-top: 20px;
+        width: 230px;
+        margin-top:80px;
     }
     
    .pag2 {
@@ -560,10 +560,10 @@ flex-direction: row;
    }
 
    .card {
-       width: 370px;
-       flex-direction: column wrap;
-       flex-wrap: wrap;
-       margin: 20px 20px;
+       width: 550px;
+       height: 550px;
+       flex-direction: column;
+       margin: 40px 150px;
    }
 
    .contactanos-img {
@@ -572,6 +572,22 @@ flex-direction: row;
    .contactanos-datos {
        width: 100%;
    }
+
+   .contactanos-datos p {
+       font-size: 40px;
+   }
+
+   .contactanos-datos h3 {
+        font-size: 60px;
+    }
+
+    .instagram-img {
+        width: 120px;
+    }
+
+    .facebook-img {
+        width: 120px;
+    }
    
    .contactanos {
        flex-direction: column;
@@ -662,6 +678,31 @@ flex-direction: row;
         background-color: #FADF10;
         width: 250px;
         border-radius: 40px; 
+    }
+
+    .comprar {
+        width: 300px;
+        height: 50px;
+        font-size: 35px;
+        font-weight: 700;
+        margin-top:50px ;
+    }
+
+    .pesos {
+        font-size: 45px;
+        margin-top: 30px;
+    }
+
+    .card img {
+        width: 380px;
+        height: 290px;
+    }
+
+    .num-pag {
+        font-size: 50px;
+        margin: 20px 10px;
+        padding: 6px 15px;
+        background-color: #4964ff;
     }
 
 }
